@@ -12,7 +12,7 @@ function pressIt() {
   
 }
 
-function frameIt() {
+function submitIt() {
   
 }
 
