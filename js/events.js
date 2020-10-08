@@ -14,8 +14,10 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('p').on('click', function() {
-    alert('Hey!');
+  $('document').on('keydown', function(key) {
+    if(key.which == 83){
+      alert('s was pressed');
+    }
   });
 }
 
